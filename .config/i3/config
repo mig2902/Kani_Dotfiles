@@ -96,7 +96,7 @@ bindsym $mod+space focus mode_toggle
 bindsym $mod+Shift+r restart
 
 # SUSPEND ACTIVITY
-bindsym $mod+v exec systemctl suspend && i3lock -i /home/leo/Images/Wallpaper/lockscreen.* -f -t -n
+bindsym $mod+v exec systemctl suspend && i3lock -i /PATH/TO/WALLPAPER -f -t -n
 bindsym $mod+Shift+v exec poweroff
 
 # EXIT I3
@@ -162,12 +162,11 @@ assign [class="firefox|Tor Browser"]$ws3
 assign [class="discord"] $ws5
 assign [class="net-mc-main-Main|Steam|retroarch"] $ws6
 
-
 # SWITCH TO URGENT WS
 for_window [urgent=latest] focus
 
 # RUN WINDOWS AT STARTUP
-exec_always --no-startup-id feh --bg-scale ~/Images/Wallpaper/desktop.*
+exec_always --no-startup-id feh --bg-scale /PATH/TO/WALLPAPER
 exec --no-startup-id nm-applet
 exec_always --no-startup-id  "killall polybar; polybar -r top"
 exec --no-startup-id discord

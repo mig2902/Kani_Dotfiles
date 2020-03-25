@@ -1,2 +1,109 @@
-# Kani_Dotfiles
-Hello u
+# A PROPOS
+
+Ce depot me permet de ne pas egarer mes fichiers de configuration en cas de pépin.
+Toutes les informations utiles à ma configuration sont ici.
+
+Des modifications ont put avoir lieux depuis ces captures d'écran
+
+![Screenshot](/Screenshot/screenshot_4.png)
+
+# LOGICIELS
+
+Je vais lister ici tout les logiciels utilisés pour un ordinateur 100% utilisable.
+
+Naviguateur web - `firefox`
+
+client torrent - `transmission-cli` / `transmission-gtk`
+
+clients mail - `thunderbird` / `tutanota-desktop`
+
+Gestionnaires de fichiers - `ranger` / `udisks2` / `thunar`
+
+editeur de code - `neovim` / `mousepad`
+
+firewall - `ufw`
+
+lecteur video/audio - `mpv` / `moc`
+
+visualiseur pdf - `mupdf`
+
+calendrier - `calcurse`
+
+calculatrice - NONE
+
+traitement de texte - `libreoffice-still-fr`
+
+barre - `polybar`
+
+WM - `i3-wm`
+
+menu - `rofi`
+
+gestionnaire de wifi - `networkmanager`
+
+bluetooth - `blueman`
+
+gestionnaire d'archive - `engrampa`
+
+visualiseur d'images - `feh` / `ristretto`
+
+emulateur de terminal - `rxvt-unicode`
+
+power manager - `tlp`
+
+screenshot - `scrot`
+
+gestionnaire de session - `lightdm-gtk-greeter`
+
+gestionnaire d'apparence - `lxappearence`
+
+notifications - `dunst`
+
+AUR manager - `yay`
+
+Client SSH - `openssh`
+
+Gestionnaire des tâches - `htop`
+
+Screensaver - `i3lock`
+
+Shell - `zsh` / `bash`
+
+## liste non exhaustive de logiciels que j'utilise:
+`krita` / `youtube-dl` / `antimicrox` / `gzdoom` / `nethack` / `asunder` / `pulseaudio` / `pavucontrol` / `discord` / `wine` / `redshift` / 
+
+# INFORMATIONS
+
+-Les fichiers "dunst","ranger","i3","nvim","rofi","gtk3","zsh"(ici en fichier .zip), et "polybar" vont dans le fichier ~/.config
+
+-Les fichiers "ranger" et "nvim" vont, aussi, si possible dans le /root/.config/
+
+-Le fichier "lightdm" va dans le dossier /etc
+
+-Les fichiers ".Xresources", ".zshrc", ".profile", et ".calcurse" vont dans le dossier ~/
+
+/!\ Ne pas oublier d'enlever les espaces devant les fichiers avec un nom commencants par un point. /!\
+
+-Le thème utilisé est le theme ![solarc](https://github.com/schemar/solarc-theme).
+
+-Le thème d'icone utilisé est ![papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/).
+
+-Le thème d'icone Papirus peut aussi être installé en entrant la commande `sudo pacman -S papirus-icon-theme`.
+
+-Le thème peut aussi être installé en entrant la commande `yay -S gtk-theme-solarc-git`.
+
+-La palette de couleurs utilisée est le theme solarized trouvable ![ici](https://github.com/altercation/solarized).
+
+-Une fois le fichier ".Xressources" dans le /home , entrer la commande `xrdb .Xresources`.
+
+-Installer dmenu lors de la 1ere installation semble être une bonne idée.
+
+-Installer yay avec la commande suivante:
+
+```
+sudo pacman -S git
+git clone https://aur.archlinux.org/yay.git
+cd yay
+makepkg -si
+```
+-Polices utilisés:`ttf-ubuntu-font-family` / `ttf-dejavu`

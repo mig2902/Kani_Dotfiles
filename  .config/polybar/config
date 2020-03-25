@@ -1,0 +1,231 @@
+
+[colors]
+background = #002b36
+background-alt = #073642
+foreground =  #657b83
+foreground-alt = #586e75
+
+primary = #859900
+secondary = #b58900
+alert= #cd322f
+
+;--------------------------------------------------------------------
+[bar/top]
+monitor =
+width = 100%
+height = 30
+;offset-x = 1%
+;offset-y = 1%
+radius = 0.0
+fixed-center = false
+
+background = ${colors.background}
+foreground = ${colors.foreground}
+
+line-size = 1
+
+border-size = 0
+border-color = 
+
+padding-left = 0
+padding-right = 1
+
+module-margin-left = 2
+module-margin-right = 2
+
+font-0 = Ubuntu Mono:style=Regular:pixelsize=13;3
+font-1 = DejaVu Sans:style=Regular
+
+modules-left = i3 
+modules-center =  
+modules-right = pulseaudio backlight cpu memory temperature battery date powermenu
+
+tray-position = right
+tray-padding = 5
+tray-background =
+
+wm-restack = i3
+;override-redirect = true
+scroll-up = i3wm-wsnext
+scroll-down = i3wm-wsprev
+cursor-click = pointer
+cursor-scroll = ns-resize
+bottom = false
+
+;--------------------------------------------------------------------
+[module/pulseaudio]
+type = internal/pulseaudio
+format-volume = <label-volume> <bar-volume>
+label-volume ="VOL %percentage%%"
+label-volume-foreground = ${root.foreground}
+label-muted ="muted " 
+label-muted-foreground = ${colors.foreground-alt}
+bar-volume-width = 10
+bar-volume-foreground-0 = ${colors.primary}
+bar-volume-foreground-1 = ${colors.primary}
+bar-volume-foreground-2 = ${colors.primary}
+bar-volume-foreground-3 = ${colors.primary}
+bar-volume-foreground-4 = ${colors.primary}
+bar-volume-foreground-5 = ${colors.secondary}
+bar-volume-foreground-6 = ${colors.secondary}
+bar-volume-foreground-7 = ${colors.alert}
+bar-volume-gradient = false
+bar-volume-indicator = //
+bar-volume-indicator-font = 
+bar-volume-fill = ─
+bar-volume-fill-font = 
+bar-volume-empty = ─
+bar-volume-empty-font = 
+bar-volume-empty-foreground = ${colors.foreground-alt}
+
+;----------------------------------------------------------
+[module/date]
+type = internal/date
+interval = 1.0
+date = DATE %H:%M 
+date-alt = DATE %A, %d %B %Y
+
+;---------------------------------------------------------
+[module/battery]
+type = internal/battery
+full-at = 99
+; Use the following command to list batteries and adapters:
+; $ ls -1 /sys/class/power_supply/
+battery = BAT0
+adapter = ADP1
+
+format-charging = <label-charging>
+format-discharging = <label-discharging>
+format-full = <label-full>
+format-charging-foreground = ${colors.primary}
+format-discharging-foreground = ${colors.alert}
+format-full-foreground = ${colors.foreground}
+label-charging = BAT %percentage%% 
+label-discharging = BAT %percentage%% 
+label-full = BAT %percentage%% 
+
+;-------------------------------------------------------
+[module/i3]
+type = internal/i3
+format = <label-state> <label-mode>
+pin-workspaces = false
+strip-wsnumbers = false
+index-sort = true
+enable-click = true
+enable-scroll = false
+wrapping-scroll = false
+reverse-scroll = false
+fuzzy-match = false
+
+label-focused = %name%
+label-focused-foreground = ${colors.foreground-alt}
+label-focused-background = ${colors.background-alt}
+label-focused-underline = ${colors.primary}
+label-focused-padding = 2
+
+label-unfocused = %name%
+label-unfocused-foreground =
+label-unfocused-background = 
+label-unfocused-underline = 
+label-unfocused-padding = 2
+
+label-visible = %name%
+label-visible-padding = 2
+
+label-urgent = %name%
+label-urgent-foreground = ${colors.alert}
+label-urgent-padding = 2
+
+;-----------------------------------------------------------------
+[module/alsa]
+type = internal/alsa
+format-volume = <label-volume> <bar-volume>
+label-volume ="VOL %percentage%%"
+label-volume-foreground = ${root.foreground}
+label-muted ="muted" 
+label-muted-foreground = ${colors.foreground-alt}
+bar-volume-width = 20
+bar-volume-foreground-0 = ${colors.primary}
+bar-volume-foreground-1 = ${colors.primary}
+bar-volume-foreground-2 = ${colors.primary}
+bar-volume-foreground-3 = ${colors.primary}
+bar-volume-foreground-4 = ${colors.primary}
+bar-volume-foreground-5 = ${colors.secondary}
+bar-volume-foreground-6 = ${colors.secondary}
+bar-volume-foreground-7 = ${colors.alert}
+bar-volume-gradient = false
+bar-volume-indicator = //
+bar-volume-indicator-font = 
+bar-volume-fill = ─
+bar-volume-fill-font = 
+bar-volume-empty = ─
+bar-volume-empty-font = 
+bar-volume-empty-foreground = ${colors.foreground-alt}
+
+;-----------------------------------------------------------------
+[module/powermenu]
+type = custom/menu
+expand-right = true
+format-spacing = 1
+
+label-open ="POWER" 
+label-open-foreground = ${colors.alert}
+label-close = cancel
+label-close-foreground = ${colors.alert}
+label-separator = |
+label-separator-foreground = ${colors.foreground}
+
+menu-0-0 = lock
+menu-0-0-exec = systemctl suspend && i3lock -i /home/leo/Images/Wallpaper/lockscreen.* -f -t -n
+
+menu-0-1 = reboot
+menu-0-1-exec = reboot 
+
+menu-0-2 = power off
+menu-0-2-exec = poweroff
+
+;---------------------------------------------------------
+[module/cpu]
+type = internal/cpu
+interval = 2
+format = <label>
+label = CPU %percentage%%
+
+;---------------------------------------------------------
+[module/memory]
+type = internal/memory
+interval = 2
+label = RAM %percentage_used%%
+label-foreground = ${colors.foreground}
+
+;---------------------------------------------------------
+[module/temperature]
+type = internal/temperature
+thermal-zone = 0
+warn-temperature = 70
+
+format =<label>
+format-foreground = ${colors.foreground}
+format-warn =<label-warn>
+
+label = TEMP %temperature-c%
+label-warn = TEMP %temperature-c%
+label-warn-foreground = ${colors.alert}
+label-foreground = ${colors.foreground}
+
+;---------------------------------------------------------
+[module/backlight]
+type = internal/backlight
+
+card=intel_backlight
+format = <label> <bar>
+label = CONTR %percentage%%
+label-foreground = ${colors.foreground}
+bar-width = 10
+bar-indicator = //
+bar-indicator-foreground = ${colors.foreground}
+bar-indicator-font = 
+bar-fill = ─
+bar-fill-foreground = ${colors.primary}
+bar-empty = ─
+bar-empty-foreground = ${colors.foreground-alt}

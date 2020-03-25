@@ -16,29 +16,29 @@
 #define S_cyan          #2aa198
 #define S_green         #859900
 
-*background:            S_base03
-*foreground:            S_base00
-*fading:                40
-*fadeColor:             S_base03
-*cursorColor:           S_base1
-*pointerColorBackground:S_base01
-*pointerColorForeground:S_base1
-*color0:                S_base02
-*color8:                S_base03
-*color1:                S_red
-*color9:                S_orange
-*color2:                S_green
-*color10:               S_base01
-*color3:                S_yellow
-*color11:               S_base00
-*color4:                S_blue
-*color12:               S_base0
-*color5:                S_magenta
-*color13:               S_violet
-*color6:                S_cyan
-*color14:               S_base1
-*color7:                S_base2
-*color15:               S_base3
+*background: S_base03
+*foreground: S_base00
+*fading: 40
+*fadeColor: S_base03
+*cursorColor: S_base1
+*pointerColorBackground: S_base01
+*pointerColorForeground: S_base1
+*color0: S_base02
+*color1: S_red
+*color2: S_green
+*color3: S_yellow
+*color4: S_blue
+*color5: S_magenta
+*color6: S_cyan
+*color7: S_base2
+*color8: S_base03
+*color9: S_orange
+*color10: S_base01
+*color11: S_base00
+*color12: S_base0
+*color13: S_violet
+*color14: S_base1
+*color15: S_base3
 
 URxvt*scrollBar: false
 URxvt*letterSpace: 0

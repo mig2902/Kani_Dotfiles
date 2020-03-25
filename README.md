@@ -61,8 +61,6 @@ notifications - `dunst`
 
 AUR manager - `yay`
 
-Client SSH - `openssh`
-
 Gestionnaire des tâches - `htop`
 
 Screensaver - `i3lock`
@@ -70,7 +68,7 @@ Screensaver - `i3lock`
 Shell - `zsh` / `bash`
 
 ## liste non exhaustive de logiciels que j'utilise:
-`krita` / `youtube-dl` / `antimicrox` / `gzdoom` / `nethack` / `asunder` / `pulseaudio` / `pavucontrol` / `discord` / `wine` / `redshift` / 
+`krita` / `youtube-dl` / `antimicrox` / `gzdoom` / `nethack` / `asunder` / `pulseaudio` / `pavucontrol` / `discord` / `wine` / `redshift` /
 
 # INFORMATIONS
 

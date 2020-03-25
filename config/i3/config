@@ -1,0 +1,203 @@
+
+# FONT
+#font pango:Ubuntu Mono 13
+font pango:MonoSpace 11
+
+# COLOR
+# class                 border  backgr. text   indicator child_border
+client.focused          #268bd2 #002b36 #657b83 #268bd2   #268bd2
+client.focused_inactive #b58900 #002b36 #657b83 #b58900   #b58900
+client.unfocused        #073642 #002b36 #657b83 #073642   #073642
+client.urgent           #dc322f #002b36 #657b83 #dc322f   #dc322f
+client.placeholder      #002b36 #002b36 #657b83 #002b36   #002b36
+client.background       #002b36
+
+# APPEARANCE
+#gaps inner 15
+default_border pixel 
+for_window [class="^.*"] border pixel 1
+
+# KEY MODIFIER
+set $mod Mod1
+floating_modifier $mod
+
+# START A TERMINAL
+bindsym $mod+x exec urxvtc
+
+# CHANGE SCREEN LAYOUT
+bindsym $mod+p exec xrandr --output HDMI1 --auto --same-as eDP1
+bindsym $mod+Shift+p exec xrandr --output HDMI1 --auto --left-of eDP1
+
+# START A FILE MANAGER
+bindsym $mod+Shift+d exec urxvtc -e 'ranger'
+
+# START TEXT EDITOR
+bindsym $mod+s exec urxvtc -e 'nvim'
+bindsym $mod+Shift+s exec mousepad
+
+# START HTOP
+bindsym $mod+q exec urxvtc -e 'htop'
+
+# KILL FOCUSED WINDOW
+bindsym $mod+Shift+q kill
+
+# START DMENU
+#bindsym $mod+d exec dmenu_run
+bindsym $mod+d exec rofi -show drun
+
+# CHANGE FOCUS
+bindsym $mod+h focus left
+bindsym $mod+j focus down
+bindsym $mod+k focus up
+bindsym $mod+l focus right
+bindsym $mod+Left focus left
+bindsym $mod+Down focus down
+bindsym $mod+Up focus up
+bindsym $mod+Right focus right
+
+# CHANGE ORIENTATION
+bindsym $mod+Shift+h move left
+bindsym $mod+Shift+j move down
+bindsym $mod+Shift+k move up
+bindsym $mod+Shift+l move right
+bindsym $mod+Shift+Left move left
+bindsym $mod+Shift+Down move down
+bindsym $mod+Shift+Up move up
+bindsym $mod+Shift+Right move right
+
+# SPLIT IN HORIZONTAL VERTICAL ORIENTATION
+#bindsym $mod+Shift+t split h
+#bindsym $mod+t split v
+
+# ENTER FULLSCREEN MODE FOR THE FOCUSED CONTAINER
+bindsym $mod+f fullscreen toggle
+
+# CHANGE CONTAINER LAYOUT
+bindsym $mod+Shift+z layout stacking
+bindsym $mod+z layout tabbed
+bindsym $mod+e layout toggle split
+
+# TOGGLE TILING / FLOATING
+bindsym $mod+Shift+space floating toggle
+
+# CHANGE FOCUS BETWEEN TILING / FLOATING WINDOWS
+bindsym $mod+space focus mode_toggle
+
+# FOCUS THE PARENT CONTAINER
+#bindsym $mod+q focus parent
+
+# FOCUS THE CHILD CONTAINER
+#bindsym $mod+d focus child
+
+# RELOAD THE CONFIGURATION FILE
+#bindsym $mod+Shift+c reload
+
+# RESTART I3 INPLACE
+bindsym $mod+Shift+r restart
+
+# SUSPEND ACTIVITY
+bindsym $mod+v exec systemctl suspend && i3lock -i /PATH/TO/WALLPAPER -f -t -n
+bindsym $mod+Shift+v exec poweroff
+
+# EXIT I3
+bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'Do you really want to quite?' -B 'Yes' 'i3-msg exit'"
+
+# PULSEAUDIO CONTROLS
+bindsym XF86AudioRaiseVolume exec  pactl set-sink-volume alsa_output.pci-0000_00_0e.0.analog-stereo +5%
+bindsym XF86AudioLowerVolume exec pactl set-sink-volume alsa_output.pci-0000_00_0e.0.analog-stereo -5%
+bindsym XF86AudioMute exec pactl set-sink-mute alsa_output.pci-0000_00_0e.0.analog-stereo toggle
+
+# SCREEN BRIGHTNESS CONTROLS
+bindsym XF86MonBrightnessUp exec xbacklight -inc 10 # increase screen brightness
+bindsym XF86MonBrightnessDown exec xbacklight -dec 10 # decrease screen brightness
+
+# MEDIA PLAYER CONTROLS
+bindsym XF86AudioPlay exec playerctl play
+bindsym XF86AudioPause exec playerctl pause
+bindsym XF86AudioNext exec playerctl next
+bindsym XF86AudioPrev exec playerctl previous
+
+# SCREENSHOT
+bindsym Print exec scrot -e 'mv $f ~/Images/Screenshot/'
+
+# DEFINE NAME FOR DEFAULT WORKSPACES
+set $ws1 "1 HOME"
+set $ws2 "2 TERM"
+set $ws3 "3 WEB"
+set $ws4 "4 CODE"
+set $ws5 "5 DISCORD"
+set $ws6 "6 GAMES"
+set $ws7 "7"
+set $ws8 "8"
+set $ws9 "9"
+set $ws10 "10"
+
+# SWITCH TO WORKSPACES
+bindsym $mod+ampersand workspace $ws1
+bindsym $mod+eacute workspace $ws2
+bindsym $mod+quotedbl workspace $ws3
+bindsym $mod+apostrophe workspace $ws4
+bindsym $mod+parenleft workspace $ws5
+bindsym $mod+minus workspace $ws6
+bindsym $mod+egrave workspace $ws7
+bindsym $mod+underscore workspace $ws8
+bindsym $mod+ccedilla workspace $ws9
+bindsym $mod+agrave workspace $ws10
+
+# MOVE FOCUSED CONTAINER TO WORKSPACE
+bindsym $mod+Shift+ampersand move container to workspace $ws1
+bindsym $mod+Shift+eacute move container to workspace $ws2
+bindsym $mod+Shift+quotedbl move container to workspace $ws3
+bindsym $mod+Shift+apostrophe move container to workspace $ws4
+bindsym $mod+Shift+5 move container to workspace $ws5
+bindsym $mod+Shift+minus move container to workspace $ws6
+bindsym $mod+Shift+egrave move container to workspace $ws7
+bindsym $mod+Shift+underscore move container to workspace $ws8
+bindsym $mod+Shift+ccedilla move container to workspace $ws9
+bindsym $mod+Shift+agrave move container to workspace $ws10
+
+# ASSIGN WORKSPACE TO SOFTWARE (DO "xprop")
+assign [class="URxvt"]$ws2
+assign [class="firefox|Tor Browser"]$ws3
+assign [class="discord"] $ws5
+assign [class="net-mc-main-Main|Steam|retroarch"] $ws6
+
+
+# SWITCH TO URGENT WS
+for_window [urgent=latest] focus
+
+# RUN WINDOWS AT STARTUP
+exec_always --no-startup-id feh --bg-scale /PATH/TO/WALLPAPER
+exec --no-startup-id nm-applet
+exec_always --no-startup-id  "killall polybar; polybar -r top"
+exec --no-startup-id discord
+exec --no-startup-id dunst
+exec --no-startup-id blueman-applet
+exec urxvtd -o -f
+exec redshift-gtk
+
+# RESIZE WINDOW
+mode "resize" {
+        bindsym h resize shrink width 10 px or 10 ppt
+        bindsym j resize grow height 10 px or 10 ppt
+        bindsym k resize shrink height 10 px or 10 ppt
+        bindsym l resize grow width 10 px or 10 ppt
+
+        bindsym Left resize shrink width 10 px or 10 ppt
+        bindsym Down resize grow height 10 px or 10 ppt
+        bindsym Up resize shrink height 10 px or 10 ppt
+        bindsym Right resize grow width 10 px or 10 ppt
+
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+        bindsym $mod+r mode "default"
+}
+bindsym $mod+r mode "resize"
+
+
+
+
+
+
+
+ 

@@ -1,0 +1,58 @@
+
+configuration {
+ modi: "drun,run";
+ combi-modi: "drun,run";
+ show-icons: true;
+ columns: 1;
+ hide-scrollbar: true;
+ scrollbar-width: 10;
+ drun-display-format: "{name}";
+ location: 3; // top-right
+ }
+* {
+    text-color:  #657b83;
+    background-color:#002b36;
+    // Bold, Italic, Underline
+    highlight: bold #fdf6e3;
+}
+#window {
+    anchor:north;
+    location:north;
+    width:100%;
+    padding:5px;
+    children:[ horibox ];
+}
+#horibox {
+    orientation:horizontal;
+    children:[ prompt, entry, listview ];
+}
+#listview {
+    layout:horizontal;
+    spacing:5px;
+    lines:100;
+}
+#entry {
+    expand:     false;
+    width:      10em;
+}
+#element {
+    padding: 0px 2px;
+}
+#element selected normal {
+    background-color: #268bd2; 
+    text-color:#fdf6e3;
+}
+#element normal active {
+    text-color: #859900;
+}
+#element normal urgent {
+    text-color: #dc322f;
+}
+#element selected active {
+    background-color: #859900;
+    text-color: #fdf6e3;
+}
+#element selected urgent {
+    background-color: #dc322f;
+    text-color: #fdf6e3;
+}

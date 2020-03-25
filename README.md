@@ -72,29 +72,15 @@ Shell - `zsh` / `bash`
 
 # INFORMATIONS
 
--Les fichiers "dunst","ranger","i3","nvim","rofi","gtk3","zsh"(ici en fichier .zip), et "polybar" vont dans le fichier ~/.config
+-Le thème utilisé est le theme ![solarc](https://github.com/schemar/solarc-theme).Pour l'installer:
+`yay -S gtk-theme-solarc-git`.
 
--Les fichiers "ranger" et "nvim" vont, aussi, si possible dans le /root/.config/
-
--Le fichier "lightdm" va dans le dossier /etc
-
--Les fichiers ".Xresources", ".zshrc", ".profile", et ".calcurse" vont dans le dossier ~/
-
-/!\ Ne pas oublier d'enlever les espaces devant les fichiers avec un nom commencants par un point. /!\
-
--Le thème utilisé est le theme ![solarc](https://github.com/schemar/solarc-theme).
-
--Le thème d'icone utilisé est ![papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/).
-
--Le thème d'icone Papirus peut aussi être installé en entrant la commande `sudo pacman -S papirus-icon-theme`.
-
--Le thème peut aussi être installé en entrant la commande `yay -S gtk-theme-solarc-git`.
+-Le thème d'icone utilisé est ![papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/).Pour l'installer:
+`sudo pacman -S papirus-icon-theme`.
 
 -La palette de couleurs utilisée est le theme solarized trouvable ![ici](https://github.com/altercation/solarized).
 
 -Une fois le fichier ".Xressources" dans le /home , entrer la commande `xrdb .Xresources`.
-
--Installer dmenu lors de la 1ere installation semble être une bonne idée.
 
 -Installer yay avec la commande suivante:
 

@@ -10,10 +10,10 @@ configuration {
  location: 3; // top-right
  }
 * {
-    text-color:  #657b83;
-    background-color:#002b36;
+    text-color:  #ebdbb2;
+    background-color:#282828;
     // Bold, Italic, Underline
-    highlight: bold #fdf6e3;
+    highlight: bold #ebdbb2;
 }
 #window {
     anchor:north;
@@ -39,20 +39,20 @@ configuration {
     padding: 0px 6px;
 }
 #element selected normal {
-    background-color: #268bd2; 
-    text-color:#fdf6e3;
+    background-color: #458588; 
+    text-color:#ebdbb2;
 }
 #element normal active {
-    text-color: #859900;
+    text-color: #98971a;
 }
 #element normal urgent {
-    text-color: #dc322f;
+    text-color: #cc241d;
 }
 #element selected active {
-    background-color: #859900;
-    text-color: #fdf6e3;
+    background-color: #98971a;
+    text-color: #ebdbb2;
 }
 #element selected urgent {
-    background-color: #dc322f;
-    text-color: #fdf6e3;
+    background-color: #cc241d;
+    text-color: #ebdbb2;
 }

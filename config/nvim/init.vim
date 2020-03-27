@@ -1,7 +1,7 @@
 
 syntax enable
 set background=dark
-colorscheme solarized
+colorscheme gruvbox
 
 call plug#begin()
 
@@ -13,7 +13,7 @@ Plug 'tpope/vim-surround'
 
 Plug 'itchyny/lightline.vim'
 let g:lightline = {
-      \ 'colorscheme': 'selenized_dark'
+      \ 'colorscheme': 'gruvbox'
       \ }
 
 Plug 'terryma/vim-multiple-cursors'
@@ -29,6 +29,9 @@ Plug 'nvie/vim-togglemouse'
 Plug 'shougo/deoplete.nvim'
 
 Plug 'preservim/nerdtree'
+
+Plug 'morhetz/gruvbox'
+
 map <C-n> :NERDTreeToggle<CR>
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif

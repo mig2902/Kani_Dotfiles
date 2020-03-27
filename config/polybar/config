@@ -1,13 +1,13 @@
 
 [colors]
-background = #002b36
-background-alt = #073642
-foreground =  #657b83
-foreground-alt = #586e75
+background = #282828
+background-alt = #32302f
+foreground =  #ebdbb2
+foreground-alt = #ebdbb2
 
-primary = #859900
-secondary = #b58900
-alert= #cd322f
+primary = #98971a
+secondary = #d79921
+alert= #cc241d
 
 ;--------------------------------------------------------------------
 [bar/top]
@@ -22,7 +22,7 @@ fixed-center = true
 background = ${colors.background}
 foreground = ${colors.foreground}
 
-line-size = 1
+line-size = 3
 
 border-size = 1
 border-color =${colors.background} 

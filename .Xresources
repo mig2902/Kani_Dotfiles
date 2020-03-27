@@ -45,7 +45,6 @@ Xft.hinting: true
 Xft.hintstyle: hintslight
 
 XTerm*font: xft:Ubuntu Mono:pixelsize:11
-
 XTerm*scrollBar: false
 XTerm*cursorBlink: false
 

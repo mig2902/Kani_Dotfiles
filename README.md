@@ -5,7 +5,7 @@ Toutes les informations utiles à ma configuration sont ici.
 
 Des modifications ont put avoir lieux depuis ces captures d'écran
 
-![Screenshot](/Screenshot/screenshot_4.png)
+![Screenshot](/Screenshot/screenshot_1.png)
 
 # LOGICIELS
 

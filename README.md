@@ -72,13 +72,12 @@ Shell - `zsh` / `bash`
 
 # INFORMATIONS
 
--Le thème utilisé est le theme ![solarc](https://github.com/schemar/solarc-theme).Pour l'installer:
-`yay -S gtk-theme-solarc-git`.
+-Le thème utilisé est le theme ![gruvbox](https://github.com/schemar/solarc-theme).
 
 -Le thème d'icone utilisé est ![papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/).Pour l'installer:
 `sudo pacman -S papirus-icon-theme`.
 
--La palette de couleurs utilisée est le theme solarized trouvable ![ici](https://github.com/altercation/solarized).
+-La palette de couleurs utilisée est le theme gruvbox trouvable ![ici](https://github.com/morhetz/gruvbox-contrib).
 
 -Une fois le fichier ".Xressources" dans le /home , entrer la commande `xrdb .Xresources`.
 

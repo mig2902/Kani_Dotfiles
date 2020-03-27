@@ -17,7 +17,7 @@ client torrent - `transmission-cli` / `transmission-gtk`
 
 clients mail - `thunderbird` / `tutanota-desktop`
 
-Gestionnaires de fichiers - `ranger` / `udisks2` / `thunar`
+Gestionnaires de fichiers - `ranger` / `udisks2`
 
 editeur de code - `neovim` / `mousepad`
 
@@ -72,7 +72,7 @@ Shell - `zsh` / `bash`
 
 # INFORMATIONS
 
--Le thème utilisé est le theme ![gruvbox](https://github.com/schemar/solarc-theme).
+-Le thème utilisé est le theme ![oomox-gtk-gruvbox](https://github.com/leomarchand51/oomox-gtk-gruvbox) crée grace à oomox par mes soins.
 
 -Le thème d'icone utilisé est ![papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/).Pour l'installer:
 `sudo pacman -S papirus-icon-theme`.

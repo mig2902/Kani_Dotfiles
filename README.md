@@ -8,13 +8,13 @@ Des modifications ont put avoir lieux depuis ces captures d'écran
 ![Screenshot](/Screenshot/screenshot_1.png)
 
 # LOGICIELS
-## Logiciels indispensable pour moi
+## Mes indispensables
 i3-wm / rofi / polybar / ranger / ufw / feh / rxvt-unicode / dunst / htop / yay / firefox / neovim / zsh /
 
-## Logiciels importants
+## Importants
 transmission-cli / mpv / moc / mupdf / scrot / i3lock / udisks2 /
 
-## Logiciels autres que j'utilise
+## Autres logiciels utilisés
 krita / youtube-dl / antimicrox / asunder / pulseaudio / pavucontrol / discord / wine / redshift / tlp/ calcurse / mousepad / ristretto / thunderbird / tutanota-desktop
 
 # INFORMATIONS

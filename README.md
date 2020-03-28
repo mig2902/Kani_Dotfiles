@@ -18,9 +18,9 @@ transmission-cli / mpv / moc / mupdf / scrot / i3lock / udisks2 / feh / htop /
 krita / youtube-dl / antimicrox / asunder / pulseaudio / pavucontrol / discord / wine / redshift / tlp/ calcurse / mousepad / ristretto / thunderbird / tutanota-desktop
 
 # INFORMATIONS
--GTK theme: ![Oomox GTK Gruvbox](https://github.com/leomarchand51/oomox-gtk-gruvbox)
+-GTK theme: ![Oomox GTK Gruvbox](https://github.com/leomarchand51/oomox-gtk-gruvbox) (crée par mes soins)
 
--Icones: ![Papirus Icon Theme](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/) -> `sudo pacman -S papirus-icon-theme`
+-Icones: ![Papirus Icon Theme](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/) (`sudo pacman -S papirus-icon-theme`)
 
 -Colorscheme: ![Gruvbox](https://github.com/morhetz/gruvbox-contrib)
 

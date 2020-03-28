@@ -9,66 +9,31 @@ Des modifications ont put avoir lieux depuis ces captures d'écran
 
 # LOGICIELS
 
-Je vais lister ici tout les logiciels utilisés pour un ordinateur 100% utilisable.
+Je vais lister ici tout les logiciels dont je me dois de sauvegarder leurs trace ici.
 
-Naviguateur web - `firefox`
-
-client torrent - `transmission-cli` / `transmission-gtk`
-
-clients mail - `thunderbird` / `tutanota-desktop`
-
-Gestionnaires de fichiers - `ranger` / `udisks2`
-
-editeur de code - `neovim` / `mousepad`
-
-firewall - `ufw`
-
-lecteur video/audio - `mpv` / `moc`
-
-visualiseur pdf - `mupdf`
-
-calendrier - `calcurse`
-
-calculatrice - NONE
-
-traitement de texte - `libreoffice-still-fr`
-
-barre - `polybar`
-
-WM - `i3-wm`
-
-menu - `rofi`
-
-gestionnaire de wifi - `networkmanager`
-
-bluetooth - `bluez`
-
-gestionnaire d'archive - `engrampa`
-
-visualiseur d'images - `feh` / `ristretto`
-
-emulateur de terminal - `rxvt-unicode`
-
-power manager - `tlp`
-
-screenshot - `scrot`
-
-gestionnaire de session - `lightdm-gtk-greeter`
-
-gestionnaire d'apparence - `lxappearence`
-
-notifications - `dunst`
-
-AUR manager - `yay`
-
-Gestionnaire des tâches - `htop`
-
-Screensaver - `i3lock`
-
-Shell - `zsh` / `bash`
+|Genre|Logiciels|
+|:----:|:----:|
+|Client Torrent|transmission-cli|
+|gestionnaire de fichier|ranger / udisks2|
+|Editeur de code|neovim / mousepad|
+|Parre-feu|ufw|
+|Lecteur video/audio|mpv / moc|
+|Lecteur PDF|mupdf|
+|Calendrier|calcurse|
+|Barre des tàches|polybar|
+|Window Manager|i3-wm|
+|Menu|Rofi|
+|Visualiseur d'images|feh|
+|Emulateur de Terminal|rxvt-unicode|
+|screenshot|scrot|
+|notifications|dunst|
+|AUR Manager|yay|
+|Gestionnaire des tâches|htop|
+|Screensaver|i3lock|
+|Shell|zsh / bash|
 
 ## liste non exhaustive de logiciels que j'utilise:
-`krita` / `youtube-dl` / `antimicrox` / `gzdoom` / `nethack` / `asunder` / `pulseaudio` / `pavucontrol` / `discord` / `wine` / `redshift` /
+`krita` / `youtube-dl` / `antimicrox` / `asunder` / `pulseaudio` / `pavucontrol` / `discord` / `wine` / `redshift` / `tlp`/ `calcurse` / `firefox` / `ristretto` /
 
 # INFORMATIONS
 

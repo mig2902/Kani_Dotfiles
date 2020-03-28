@@ -9,10 +9,10 @@ Des modifications ont put avoir lieux depuis ces captures d'écran
 # LOGICIELS
 Ici les logiciels que j'utilise classés par importance
 ## Mes indispensables
-i3-wm / rofi / polybar / ranger / ufw / feh / rxvt-unicode / dunst / htop / yay / firefox / neovim / zsh /
+i3-wm / rofi / polybar / ranger / ufw / rxvt-unicode / dunst / yay / firefox / neovim / zsh /
 
 ## Importants
-transmission-cli / mpv / moc / mupdf / scrot / i3lock / udisks2 /
+transmission-cli / mpv / moc / mupdf / scrot / i3lock / udisks2 / feh / htop /
 
 ## Autres logiciels utilisés
 krita / youtube-dl / antimicrox / asunder / pulseaudio / pavucontrol / discord / wine / redshift / tlp/ calcurse / mousepad / ristretto / thunderbird / tutanota-desktop

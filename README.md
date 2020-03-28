@@ -8,33 +8,14 @@ Des modifications ont put avoir lieux depuis ces captures d'écran
 ![Screenshot](/Screenshot/screenshot_1.png)
 
 # LOGICIELS
-Voici les logiciels que j'utilise classés par categorie
+## Logiciels indispensable pour moi
+i3-wm / rofi / polybar / ranger / udisks2 / ufw / feh / rxvt-unicode / dunst / htop / yay / firefox / neovim / zsh / i3lock
 
-|Categorie|Logiciels|
-|:----:|:----:|
-|Naviguateur Web|firefox|
-|Client Torrent|transmission-cli|
-|gestionnaire de fichier|ranger / udisks2|
-|Editeur de code|neovim / mousepad|
-|Parre-feu|ufw|
-|Lecteur video/audio|mpv / moc|
-|Lecteur PDF|mupdf|
-|Calendrier|calcurse|
-|Barre des tàches|polybar|
-|Window Manager|i3-wm|
-|Menu|Rofi|
-|Visualiseur d'images|feh|ristretto|
-|Emulateur de Terminal|rxvt-unicode|
-|screenshot|scrot|
-|notifications|dunst|
-|AUR Manager|yay|
-|Gestionnaire des tâches|htop|
-|Screensaver|i3lock|
-|Shell|zsh / bash|
-|Client Mail|thunderbird / tutanota-desktop|
+## Logiciels importants
+transmission-cli / mpv / moc / mupdf / scrot / 
 
-## liste non exhaustive de logiciels que j'utilise:
-`krita` / `youtube-dl` / `antimicrox` / `asunder` / `pulseaudio` / `pavucontrol` / `discord` / `wine` / `redshift` / `tlp`/
+## Logiciels autres que j'utilise
+krita / youtube-dl / antimicrox / asunder / pulseaudio / pavucontrol / discord / wine / redshift / tlp/ calcurse / mousepad / ristretto / thunderbird / tutanota-desktop
 
 # INFORMATIONS
 

@@ -4,7 +4,7 @@ configuration {
  combi-modi: "drun,run";
  show-icons: true;
  columns: 1;
- hide-scrollbar: true;
+ scrollbar: false;
  scrollbar-width: 10;
  drun-display-format: "{name}";
  location: 3; // top-right
@@ -39,20 +39,27 @@ configuration {
     padding: 0px 6px;
 }
 #element selected normal {
-    background-color: #458588; 
-    text-color:#ebdbb2;
+    background-color: #458588;
+}
+#element alternate normal {
+    background-color: #32302f;
 }
 #element normal active {
-    text-color: #98971a;
+    text-color:#d79921;
 }
-#element normal urgent {
-    text-color: #cc241d;
+#element alternate active {
+    text-color:#d78821;
 }
 #element selected active {
-    background-color: #98971a;
-    text-color: #ebdbb2;
+    background-color: #d78821;
 }
+#element normal urgent {
+    text-color:#cc241d;
+}
+#element alternate urgent {
+    text-color:#cc241d;
+}   
 #element selected urgent {
     background-color: #cc241d;
-    text-color: #ebdbb2;
 }
+

@@ -24,7 +24,7 @@ krita / youtube-dl / antimicrox / asunder / pulseaudio / pavucontrol / discord /
 
 -Colorscheme: ![Gruvbox](https://github.com/morhetz/gruvbox-contrib)
 
--Yay:
+-AUR Manager: ![Yay](https://github.com/Jguer/yay)
 ```
 sudo pacman -S git
 git clone https://aur.archlinux.org/yay.git

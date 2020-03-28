@@ -10,7 +10,7 @@ Des modifications ont put avoir lieux depuis ces captures d'écran
 # LOGICIELS
 Voici les logiciels que j'utilise classés par categorie
 
-|Categories|Logiciels|
+|Categorie|Logiciels|
 |:----:|:----:|
 |Naviguateur Web|firefox|
 |Client Torrent|transmission-cli|
@@ -31,6 +31,7 @@ Voici les logiciels que j'utilise classés par categorie
 |Gestionnaire des tâches|htop|
 |Screensaver|i3lock|
 |Shell|zsh / bash|
+|Client Mail|thunderbird / tutanota-desktop|
 
 ## liste non exhaustive de logiciels que j'utilise:
 `krita` / `youtube-dl` / `antimicrox` / `asunder` / `pulseaudio` / `pavucontrol` / `discord` / `wine` / `redshift` / `tlp`/

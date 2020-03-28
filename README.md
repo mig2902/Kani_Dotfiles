@@ -18,20 +18,20 @@ transmission-cli / mpv / moc / mupdf / scrot / i3lock / udisks2 / feh / htop /
 krita / youtube-dl / antimicrox / asunder / pulseaudio / pavucontrol / discord / wine / redshift / tlp/ calcurse / mousepad / ristretto / thunderbird / tutanota-desktop
 
 # INFORMATIONS
--GTK theme: ![Oomox GTK Gruvbox](https://github.com/leomarchand51/oomox-gtk-gruvbox) (crée par mes soins)
+**-GTK theme:** ![Oomox GTK Gruvbox](https://github.com/leomarchand51/oomox-gtk-gruvbox) (crée par mes soins)
 
--Icones: ![Papirus Icon Theme](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/) 
+**-Icones:** ![Papirus Icon Theme](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/) 
 ```
 sudo pacman -S papirus-icon-theme
 ```
 
--Colorscheme: ![Gruvbox](https://github.com/morhetz/gruvbox-contrib)
+**-Colorscheme:** ![Gruvbox](https://github.com/morhetz/gruvbox-contrib)
 
--AUR Manager: ![Yay](https://github.com/Jguer/yay)
+**-AUR Manager:** ![Yay](https://github.com/Jguer/yay)
 ```
 sudo pacman -S git
 git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
 ```
--Polices:`ttf-ubuntu-font-family` / `ttf-dejavu`
+**-Polices:**`ttf-ubuntu-font-family` / `ttf-dejavu`

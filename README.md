@@ -8,11 +8,11 @@ Des modifications ont put avoir lieux depuis ces captures d'écran
 ![Screenshot](/Screenshot/screenshot_1.png)
 
 # LOGICIELS
+Voici les logiciels que j'utilise classés par categorie
 
-Je vais lister ici tout les logiciels dont je me dois de sauvegarder leurs trace ici.
-
-|Genre|Logiciels|
+|Categories|Logiciels|
 |:----:|:----:|
+|Naviguateur Web|firefox|
 |Client Torrent|transmission-cli|
 |gestionnaire de fichier|ranger / udisks2|
 |Editeur de code|neovim / mousepad|
@@ -23,7 +23,7 @@ Je vais lister ici tout les logiciels dont je me dois de sauvegarder leurs trace
 |Barre des tàches|polybar|
 |Window Manager|i3-wm|
 |Menu|Rofi|
-|Visualiseur d'images|feh|
+|Visualiseur d'images|feh|ristretto|
 |Emulateur de Terminal|rxvt-unicode|
 |screenshot|scrot|
 |notifications|dunst|
@@ -33,7 +33,7 @@ Je vais lister ici tout les logiciels dont je me dois de sauvegarder leurs trace
 |Shell|zsh / bash|
 
 ## liste non exhaustive de logiciels que j'utilise:
-`krita` / `youtube-dl` / `antimicrox` / `asunder` / `pulseaudio` / `pavucontrol` / `discord` / `wine` / `redshift` / `tlp`/ `calcurse` / `firefox` / `ristretto` /
+`krita` / `youtube-dl` / `antimicrox` / `asunder` / `pulseaudio` / `pavucontrol` / `discord` / `wine` / `redshift` / `tlp`/
 
 # INFORMATIONS
 

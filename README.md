@@ -41,7 +41,7 @@ menu - `rofi`
 
 gestionnaire de wifi - `networkmanager`
 
-bluetooth - `blueman`
+bluetooth - `bluez`
 
 gestionnaire d'archive - `engrampa`
 

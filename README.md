@@ -1,3 +1,4 @@
+**OLD DOTFILES**
 # A PROPOS
 
 Ce depot me permet de ne pas egarer mes fichiers de configuration en cas de pépin.

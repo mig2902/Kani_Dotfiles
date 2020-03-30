@@ -12,7 +12,7 @@ Ici les logiciels que j'utilise classés par importance
 i3-wm / rofi / polybar / ranger / ufw / rxvt-unicode / dunst / yay / firefox / neovim / zsh /
 
 ## Importants:
-transmission-cli / mpv / moc / mupdf / scrot / i3lock / udisks2 / feh / htop /
+transmission-cli / mpv / moc / mupdf / scrot / i3lock / udisks2 / feh / htop / ntp
 
 ## Autres logiciels utilisés:
 krita / youtube-dl / antimicrox / asunder / pulseaudio / pavucontrol / discord / wine / redshift / tlp/ calcurse / mousepad / ristretto / thunderbird / tutanota-desktop
